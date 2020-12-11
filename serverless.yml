@@ -2,10 +2,10 @@ service: serverless-offline-sqs-tutorial
 
 provider:
   name: aws
-  runtime: nodejs8.10
+  runtime: nodejs12.x
   stage: local
   region: eu-west-2
-
+frameworkVersion: ^2.10.0
 package:
   individually: true
   exclude:
